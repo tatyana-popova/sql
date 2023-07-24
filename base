@@ -1,0 +1,16 @@
+SELECT * FROM Shippers
+
+//Добавляем данные
+INSERT INTO Shippers
+(name, company, city, address)
+VALUES
+('Beda', 'ShipperCity', 'Moscow', 'Lesnaya st., 17-23'
+
+//Обновляем данные
+UPDATE Shippers
+SET name = 'Pobeda', company = 'ShipperCity'
+WHERE name = 'Beda'
+
+//Удаляем данные
+DELETE FROM Shippers
+WHERE name = 'Pobeda'
