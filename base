@@ -1,4 +1,10 @@
 SELECT * FROM Shippers
+WHERE iteger > >= < 
+      text LIKE 'a%' '%a%' '%a' '_a' '__a'
+           name = 'Tanya' AND / OR
+      datetime
+ORDER BY name DESC / ASC (default)
+LIMIT 5
 
 //Добавляем данные
 INSERT INTO Shippers
